@@ -1,34 +1,38 @@
 body{
-    margin: 0;
-    padding: 0;
+    background-color: #272744;
 }
 .container-all{
     display: grid;
     grid-template-columns: 15% 85%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 10% 22.2% 22.2% 22.2% 22.2%;
     height: 100vh;
     width: 100;
     justify-items: stretch;
-    background-color: aqua;
     grid-gap: 5px;
 }
 .container-profecional-data{
+    margin-left: 20px;
+    margin-right: 20px;
     grid-column: auto;
     grid-row: 1/4;
-    background-color:antiquewhite;
+    background-color:#8b6d9c;
     
     display: grid;
     grid-template-rows: auto auto;
     justify-items: center;
 }
 .title{
-    background-color: aquamarine;
-    border-radius: 10%;
+    background-color:#c69fa5;
     grid-column: 2;
     grid-row: 1;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
-h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.title h1{
+    color: #f2d3ab;
+    font-size:xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .profile-pic{
     grid-row: 1;
@@ -38,21 +42,40 @@ h1{
     grid-row: 2;
 }
 
+h2{
+    color: #f2d3ab;
+    font-size:xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    color: #f2d3ab;
+    font-size:xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: #fbf5ef;
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 .referencias{
     grid-column: 1;
     grid-row: 4;
-    background-color:antiquewhite;
-    border-radius: 10%;
+    background-color:#8b6d9c;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .datos_profecionales{
     grid-column: 2;
     grid-row: 2/5;
-    background-color: bisque;
+    background-color: #494d7e;
 
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows:  20% 40% 40%;
     justify-items: center;
+    justify-content: center;
 }
 
 .title_datos{
@@ -69,6 +92,10 @@ h1{
 }
 .educacion{
     grid-column: 1;
+    grid-row: 3;
+}
+.habilidades{
+    grid-column: 2;
     grid-row: 3;
 }
 
