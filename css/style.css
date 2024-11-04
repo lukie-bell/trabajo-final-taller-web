@@ -11,8 +11,6 @@ body{
     grid-gap: 5px;
 }
 .container-profecional-data{
-    margin-left: 20px;
-    margin-right: 20px;
     grid-column: auto;
     grid-row: 1/4;
     background-color:#8b6d9c;
@@ -20,6 +18,11 @@ body{
     display: grid;
     grid-template-rows: auto auto;
     justify-items: center;
+}
+.text{
+    align-items: center;
+    word-break:break-all;
+    margin: 0 0 5px 5px ;
 }
 .title{
     background-color:#c69fa5;
@@ -36,7 +39,7 @@ body{
 }
 .profile-pic{
     grid-row: 1;
-    border-radius: 30%;
+    border-radius: 50px;
 }
 .profecional-data{
     grid-row: 2;
@@ -44,17 +47,17 @@ body{
 
 h2{
     color: #f2d3ab;
-    font-size:xx-large;
+    font-size:100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h3{
     color: #f2d3ab;
-    font-size:xx-large;
+    font-size:100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 p{
-    color: #fbf5ef;
-    font-size:large;
+    color: hsl(30, 60%, 96%);
+    font-size:100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -63,8 +66,7 @@ p{
     grid-column: 1;
     grid-row: 4;
     background-color:#8b6d9c;
-    margin-left: 20px;
-    margin-right: 20px;
+
 }
 .datos_profecionales{
     grid-column: 2;
